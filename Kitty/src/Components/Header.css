@@ -1,0 +1,54 @@
+.head {
+    position: fixed;
+    top: 0;
+    background: rgb(120, 55, 120);
+    padding: 1.3rem;
+    width: 4rem;
+    height: 97vh;
+    box-shadow: .3px .5px black;
+    color: black;
+    font-size: 2rem;
+}
+
+.nav1 {
+    position: fixed;
+    top: 8rem;
+    left: 1.5rem;
+
+}
+
+#nav {
+    cursor: pointer;
+    align-items: center;
+    width: 3.5rem;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+#nav:hover {
+    color: aliceblue;
+    align-items: center;
+    background: rgb(124, 76, 134);
+    border-radius: 20%;
+}
+
+.logo img {
+    display: block;
+    mix-blend-mode: darken;
+    position: absolute;
+    left: 0;
+    padding-left: .7rem;
+    align-items: center;
+    width: 4.5rem;
+    height: 3.4rem;
+}
+
+.HeadContent {
+    border: 3px solid white;
+    width: 176vh;
+    position: absolute;
+    left: 8rem;
+    height: 10rem;
+    max-height: auto;
+    color: aliceblue
+}

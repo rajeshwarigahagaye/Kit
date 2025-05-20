@@ -1,0 +1,70 @@
+.content {
+
+    background-image: url('https://i.pinimg.com/originals/35/ce/9f/35ce9f85da291b4c1c504d8cbd37e8ee.gif');
+    background-color: rgb(151, 109, 158);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    border-radius: 20px;
+    width: 169vh;
+    display: block;
+    min-height: 70vh;
+    max-height: auto;
+
+}
+
+
+.h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 8.7rem;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.cursor {
+    position: absolute;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 5rem;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: capitalize;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.typewriter-animation {
+    animation:
+        typewriter 6s steps(50, end) infinite,
+        blinkingCursor 500ms steps(30) infinite;
+
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 78%;
+    }
+
+}
+
+
+@keyframes blinkingCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+
+}

@@ -1,0 +1,84 @@
+.image {
+
+    height: 2.6rem;
+    width: 2.6rem;
+    border-radius: 25px;
+}
+
+.buttons {
+    cursor: pointer;
+    top: 4.4rem;
+    left: 1rem;
+    justify-content: center;
+    width: 175vh;
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    padding: .5rem;
+    border: 5ps solid rgb(208, 135, 222);
+    border-radius: 10px;
+    border: 1px solid snow;
+    background: rgb(17, 11, 17);
+}
+
+
+button {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    left: .1rem;
+    z-index: 2;
+    border-radius: 15px;
+    margin-left: .5rem;
+    height: 2.66rem;
+    max-height: auto;
+    width: 10rem;
+    font-weight: 400;
+    color: rgb(44, 14, 55);
+    background: rgb(193, 132, 223);
+}
+
+.c1 {
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    outline: 1px solid white;
+    height: 2.6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    color: rgb(44, 14, 55);
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    width: 2.6rem;
+    background: rgb(204, 95, 244);
+}
+
+
+.CardImage {
+
+    display: grid;
+    float: left;
+    flex-direction: row;
+    margin: 1rem;
+    width: 16rem;
+    border-radius: 50px;
+    height: 25rem;
+    border: 5px solid rgb(241, 153, 214);
+}
+
+.contentImg {
+    margin-top: 3.50rem;
+    padding-left: 2.8rem;
+    position: absolute;
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: rgb(151, 109, 158);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    border-radius: 20px;
+    min-height: 70vh;
+    max-height: auto;
+    width: 177vh;
+
+}
